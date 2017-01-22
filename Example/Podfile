@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HLScanView_Example' do
+  pod 'HLScanView', :path => '../'
+
+  target 'HLScanView_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
