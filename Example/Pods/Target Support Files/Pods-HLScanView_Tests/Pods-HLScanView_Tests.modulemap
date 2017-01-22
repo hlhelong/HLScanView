@@ -1,0 +1,6 @@
+framework module Pods_HLScanView_Tests {
+  umbrella header "Pods-HLScanView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

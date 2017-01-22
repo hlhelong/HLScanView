@@ -1,0 +1,6 @@
+framework module Pods_HLScanView_Example {
+  umbrella header "Pods-HLScanView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
